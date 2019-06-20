@@ -1,0 +1,71 @@
+body {
+  background-color: #888098;
+  text-align: center;
+}
+
+#title {
+  color: #CFB3CD;
+  font-size: 5em;
+  font-family: 'bubblegum sans', cursive;
+  font-weight: normal;
+  padding: 0px;
+}
+
+#description {
+  color: #CFB3CD;
+  font-family: 'bubblegum sans', cursive;
+  font-size: 1.4em;
+  font-weight: normal;
+  padding-bottom: 1.3em;
+}
+
+#header-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: -3em;
+}
+
+#survey-form {
+  color: #344055;
+  background-color: #CFB3CD;
+  width: 75%;
+  margin: auto;
+  padding: 1em;
+  margin-top: 0px;
+}
+
+#inner-form {
+  width: 75%;
+  padding: 1.5em;
+  font-family: 'bubblegum sans', cursive;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+input {
+  text-align: center;
+  margin: 1em;
+}
+
+button, checkbox, radio, input, select, textarea {
+  font-family: inherit;
+  font-size: 75%;
+  margin-top: 0.2em;
+}
+
+#submit {
+  background-color: #DFC2F2;
+  color: #344055;
+  padding: 0.5em;
+  border: 2px solid #344055;
+}
